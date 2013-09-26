@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="WebSite2_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="CSS%20style/stylesheet.css" rel="stylesheet" />
+    <link href="CSS%20style/Menu.css" rel="stylesheet" type="text/css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="bodystyle">
+    <div class="heading">
+    </div>
+<div class="heading2">
+<ul id="menu">
+<li><a href="Default.aspx"  onmouseover="this.style.color='#ff0000'" onmouseout="this.style.color='#FFFFFF'" style="color:#FFFFFF" >Home</a></li>
+<li><a href="#" onmouseover="this.style.color='#ff0000'" onmouseout="this.style.color='#FFFFFF'">Area</a>
+<ul>
+    <br><br>
+<li><a href="BUWest.aspx">BU West</a></li>
+<li><a href="BUCentral.aspx">BU Central</a></li>
+<li><a href="BUEast.aspx">BU East</a></li>
+<li><a href="AroundBU.aspx">Around BU</a></li>
+</ul>
+</li>
+<li> <a href="AboutUs.aspx" style="color:#FFFFFF" onmouseover="this.style.color='#ff0000'" onmouseout="this.style.color='#FFFFFF'">About Us</a>
+<ul>
+    <br><br>
+<li><a href="https://www.facebook.com/huangyehuan">Yehuan Huang</a></li>
+<li><a href="https://www.facebook.com/iris.lee.3114935">Shu Li</a></li>
+<li><a href="https://www.facebook.com/qilong.tang.9">Qilong Tang</a></li>
+<li><a href="#">Kaize Qin</a></li>
+<li><a href="AboutUs.aspx">Our Group</a></li> 
+</ul>
+</li>
+<li><asp:Label ID="L1" Text="&lt;a href=&quot;About.aspx&quot; style=&quot;color:#FFFFFF;text-decoration:none&quot;&gt;Profile&lt;/a&gt;" runat="server" Visible="False"></asp:Label></li>
+<li><asp:Label ID="Label1" runat="server" Visible="False"><a href ="Login.aspx" style="color:#FFFFFF;text-decoration:none"onmouseover="this.style.color='#ff0000'" onmouseout="this.style.color='#FFFFFF'">Welcome</a></asp:Label></li>
+<li><asp:Label ID="L2"  runat="server" Visible="False"><a href ="Logout.aspx" style="color: #FFFFFF; text-decoration: none" onmouseover="this.style.color='#ff0000'" onmouseout="this.style.color='#FFFFFF'">Log out</a></asp:Label></li>
+<li><asp:Label ID="Label2" runat="server"><a href ="Login.aspx" style="color:#FFFFFF"onmouseover="this.style.color='#ff0000'" onmouseout="this.style.color='#FFFFFF'">Sign in</a></asp:Label></li>
+<li><asp:Label ID="Label3" runat="server"><a href="Register.aspx" style="color: #FFFFFF"onmouseover="this.style.color='#ff0000'" onmouseout="this.style.color='#FFFFFF'">Join Us</a></asp:Label></li>
+
+
+
+</ul>
+</div>
+    <div class="page">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="Buttom">
+        <asp:Label ID="Label4" runat="server"><a style="color:#FFFFFF;text-decoration:none">Follow Us</a></asp:Label><br />
+        &nbsp;
+        <a href="http://www.facebook.com/"><img src="Image/facebook.jpg" style="width: 70px; height: 70px"/></a>
+        <a href="http://www.twitter.com/"><img src="Image/twitter.jpg" style="width: 70px; height: 70px; position: relative; left: 4px" /></a>
+        <a href="http://renren.com"><img src="Image/renren.jpg" style="width: 70px; height: 70px; position: relative; left: 4px" /></a>
+        <a href="http://yelp.com"><img src="Image/Yelp.jpg" style="width: 70px; height: 70px; position: relative; left: 4px" /></a>
+        <a href="http://youtube.com"><img src="Image/Youtube.jpg" style="width: 70px; height: 70px; position: relative; left: 4px" /></a>
+        <a href="http://msn.com"><img src="Image/MSN.jpg" style="width: 70px; height: 70px; position: relative; left: 4px" /></a>
+        <a href="http://yahoo.com"><img src="Image/Yahoo.jpg" style="width: 70px; height: 70px; position: relative; left: 4px" /></a>
+    </div>
+</body>
+</html>

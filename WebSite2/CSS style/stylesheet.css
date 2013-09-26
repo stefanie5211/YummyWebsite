@@ -1,0 +1,168 @@
+﻿.bodystyle
+{
+    background-color: #FFFF99;
+    clip: rect(auto, auto, auto, auto);
+}
+
+.heading
+{
+    font-family: "Arial Unicode MS";
+    font-size: medium;
+    color: #808080;
+    font-weight: bold;
+    font-style: normal;
+    background-image: url('../Image/13195053W15I0-135O.jpg');
+    margin-right: auto;
+    margin-left: auto;
+    width: 950px;
+    height: 191px;
+}
+
+.heading2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: medium;
+    background-color: #FF6600;
+    text-align: right;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bolder;
+    width: 950px;
+}
+
+
+.Button
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: medium;
+    background-color: #FF6600;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bolder;
+    width: 950px;
+}
+
+.Buttom
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: medium;
+    background-color: #FF6600;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bolder;
+    width: 950px;
+}
+
+.bodyleft
+{
+    background-image: url('../Image/Chinese-Cuisine-Table-Laying-1080x1920.gif');
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../Image/Chinese-Cuisine-Table-Laying-1080x1920.gif', sizingMethod='scale');
+}
+
+.bodycr
+{
+    width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4px;
+    height: 546px;
+}
+
+.bodycenter
+{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../Image/BUcentral.gif');
+    text-align: center;
+    color: #FFFFFF;
+    float: right;
+    font-weight: bold;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../Image/BUcentral.gif', sizingMethod='scale');
+}
+
+.bodyright
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-image: url('../Image/BUeast.gif');
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 4px;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../Image/BUeast.gif', sizingMethod='scale');
+}
+
+.bodyrightright
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    background-image: url('../Image/AroundBU.gif');
+    color: #FFFFFF;
+    margin-top: 4px;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../Image/AroundBU.gif', sizingMethod='scale');
+}
+
+.page
+{
+    width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.global1
+{
+    float: right;
+    width: 66%;
+}
+
+.BUcentral
+{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3px;
+    width: 950px;
+}
+
+.restaurantintro
+{
+    float: right;
+    width: 610px;
+    height: 394px;
+    <-border: solid 5px #FFFFFF;
+    ->;
+}
+
+.restname
+{
+    float: left;
+    width: 310px;
+    height: 233px;
+}
+
+.intro
+{
+    font-family: "bradley Hand ITC";
+    font-size: x-large;
+    font-weight: bolder;
+    color: #000000;
+}
+
+.bodyword
+{
+    font-family: "Bradley Hand ITC";
+    font-weight: bolder;
+    font-size: x-large;
+}

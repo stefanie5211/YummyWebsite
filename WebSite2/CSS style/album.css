@@ -1,0 +1,79 @@
+/*--design by forestgan-
+create date aug. 8 2005
+http://wwww.forest53.com
+last edit Jul 11 2006
+*/
+
+*{
+	border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    padding: 0;
+    margin: 0 0 0 1px;
+}
+
+
+#pic{
+	margin: 10px;
+	width: 500px;
+	overflow: hidden;
+	border: solid 5px #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* html #pic{
+	display: inline;
+	width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#album{
+	width: 780px;
+	<-!background: #EEEEEE;->
+	margin: 0.4em auto .5em auto;
+	font-size: 100%;
+	padding-bottom: 10px;
+	text-align: left;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+    position:relative;
+}
+	
+#desc{
+	text-align: center;
+	width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+	
+#thumbs{
+	height: 80px;
+	clear: left;
+	width: 781px;
+	margin: 0 auto;
+	overflow: auto;
+	overflow-y:hidden;
+    }
+	
+#thumbs ul{
+	width: 780px;
+	padding: 5px 0;
+}
+	
+#thumbs img{
+	width: 60px;
+	height: 50px;
+}
+	
+#thumbs ul li{
+	float: left;
+	padding: 0 3px 0 2px;
+}
+
+#thumbs ul li a{
+	background: transparent;
+}
+
